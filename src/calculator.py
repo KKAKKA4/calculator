@@ -18,8 +18,7 @@ class Calculator():
     @staticmethod
     def divide(arg1, arg2):
         # use //
-        if arg2:
-            pass
+        # if divisor == 0 return None
         pass
 
     @staticmethod
