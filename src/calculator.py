@@ -5,7 +5,7 @@ class Calculator():
 
     @staticmethod
     def add(arg1, arg2):
-        pass
+        return arg1 + arg2
 
     @staticmethod
     def subtract(arg1, arg2):
