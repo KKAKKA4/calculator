@@ -11,9 +11,9 @@ def test_multiply(calculator):
     assert calculator.multiply(5, 6) == 30
     
 def test_divide(calculator):
-    assert calculator.divide(2, 2) == 4
-    assert calculator.divde(5, 6) == 30
-    assert calculator.divde(5, 0) == None
+    assert calculator.divide(2, 2) == 1
+    assert calculator.divide(5, 6) == 0
+    assert calculator.divide(5, 0) == None
 
 def test_square(calculator):
     assert calculator.square(2) == 4
