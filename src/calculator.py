@@ -9,7 +9,7 @@ class Calculator():
 
     @staticmethod
     def subtract(arg1, arg2):
-        pass
+        return arg1 - arg2
 
     @staticmethod
     def multiply(arg1, arg2):
